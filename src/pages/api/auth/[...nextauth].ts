@@ -15,8 +15,7 @@ export const authOptions = NextAuth({
     },
     pages: {
         signIn: '/auth/signin',
-        signOut: '/auth/signin',
-
+        error: '/auth/signin',
     },
     callbacks: {
         session({ session, token }) {
@@ -60,7 +59,7 @@ export const authOptions = NextAuth({
 
                 const user = await request.json()
 
-                if (request.ok && user && user.isAdmin) {
+                if (user && user.isAdmin) {
                     return user;
                 } else {
                     return null;
