@@ -73,7 +73,7 @@ export default function Product() {
                     </div>
                     <div className="space-y-2">
                         <div>
-                            <button type="submit" className="w-full px-8 py-3 font-semibold rounded-md bg-green-600 text-gray-50">
+                            <button type="submit" className="w-full px-8 py-3 font-semibold rounded-md bg-amber-600 text-gray-50">
                                 Cadastrar
                             </button>
                         </div>

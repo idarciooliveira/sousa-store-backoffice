@@ -23,7 +23,7 @@ export default function Categorias() {
             <div className="container p-2 mx-auto sm:p-4 text-gray-800">
                 <div className='flex items-center justify-between flex-row '>
                     <h2 className="mb-4 text-2xl font-semibold leadi">Categorias</h2>
-                    <Link href={'/categories/create'} className='w-32 p-2 text-center bg-green-600 h-10 text-white rounded'>
+                    <Link href={'/categories/create'} className='w-32 p-2 text-center bg-amber-600 h-10 text-white rounded'>
                         Nova Categoria
                     </Link>
                 </div>
