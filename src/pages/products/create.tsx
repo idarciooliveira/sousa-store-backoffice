@@ -78,7 +78,7 @@ export default function Product() {
                             </button>
                         </div>
                         <div>
-                            <Link href={'/products'} className="w-full px-8 py-3 font-semibold rounded-md bg-white text-green-600 border-green-600">
+                            <Link href={'/products'} className="w-full px-8 py-3 font-semibold rounded-md bg-white text-amber-600 border-green-600">
                                 Cancelar
                             </Link>
                         </div>
